@@ -30,6 +30,11 @@ Pycharm
 
 # Execução do BERT
 
+Faça o download do modelo tunado do BERT por meio do link:
+https://drive.google.com/drive/folders/1py1dieHcpWiQeTAc07A96DsCrTkFjw6z?usp=sharing
+
+Adicione a pasta baixada na raiz deste repositório.
+
 Para classificar uma sentença por meio do BERT, é necessário adicionar as instâncias das patentes
 no arquivo patentes.csv. O arquivo contém alguns exemplos de instâncias que serão classificadas.
 
