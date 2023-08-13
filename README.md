@@ -47,10 +47,17 @@ arquivo predictions-bert.csv
 
 # Execução de SVM OneClass
 
+Baixe e instale o modelo tunado do SVM OneClass nos links:
+https://drive.google.com/drive/folders/1NXUSYnVCGiRgS2CtM1fvtNawxE4mAUyq?usp=sharing
+https://drive.google.com/drive/folders/1yS75mp4e7fOX2HRdC2phY8zfZQKqHAe5?usp=sharing
+https://drive.google.com/drive/folders/1-3FgDn90MLhWl10B-aQecHvIija6Wa-o?usp=sharing
+
+Adicione as pastas baixadas na raiz deste repositório.
+
 Para classificar uma sentença por meio de SVMOneClass, use o mesmo arquivo patentes.csv.
 O arquivo contém alguns exemplos de instâncias que serão classificadas.
 
-Em seguida, execute o SVMOneClass por meio do comando:
+Em seguida, execute o SVM OneClass por meio do comando:
 
 ``python3 SVM-classifier.py``
 
